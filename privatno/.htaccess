@@ -1,0 +1,7 @@
+AuthName "Ispis korisnika"
+AuthType Basic
+AuthUserFile //var/www/WebDiP/2011_projekti/WebDiP2011_031/fijandrij/privatno/.htpasswd
+Require valid-user
+# AuthMySQLGroupTable tip_korisnika
+# AuthMySQLGroupField naziv
+#AuthMySQLCryptedPasswords Off
